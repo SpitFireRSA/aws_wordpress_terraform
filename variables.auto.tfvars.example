@@ -1,0 +1,14 @@
+# This file is an example of the variables to specify when using this project.
+# NB: Rename and remove the ".example" from the file name to activate it.
+
+# Define the database variables.
+db_pass=""
+db_user=""
+db_name=""
+
+# Define wordpress variables.
+wp_admin_user=""
+wp_admin_pass=""
+wp_admin_email=""
+wp_title=""
+wp_locale=""
