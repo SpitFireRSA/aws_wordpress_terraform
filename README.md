@@ -56,7 +56,7 @@ If you already have a defined AWS profile you would like to use, please continue
 
 ### 2.3 Profile Selection
 
-1. Using your favourite IDE or text editor.  Open the file named **main.tf**  that is in the project directory created in Step 1.3.
+1. Using your favourite IDE or text editor.  Open the file named **main.tf**  that is in the project directory created in Section **1. Clone The Repository** Step 1.4.
 2. Update the value in quotes for **region = "eu-west-1"** to the region specified Step 2.2.5.
 	> **Note:** Region eu-west-1 is default.
 3. Update the value in quotes for **profile = "default"** to **"aws_wordpress_terraform"**
@@ -67,14 +67,14 @@ If you already have a defined AWS profile you would like to use, please continue
 # Launch Project
 
 ## 1. Terraform Initiation
-1. From the terminal, navigate to the project directory created in Step 1.3.
+1. From the terminal, navigate to the project directory created in Section **1. Clone The Repository** Step 1.4.
 2. Run the following command to initialise Terraform:
 	***terraform init***
 3. The required modules and plugins for the Terraform project will now be downloaded.
 4. Once the **Terraform has been successfully initialized!** has can be found in the output, you can proceed to Step 2.1
 
 ## 2. Configuration Checks
-1. From the terminal, navigate to the project directory created in Section **1. Clone The Repository** Step 1.3.
+1. From the terminal, navigate to the project directory created in Section **1. Clone The Repository** Step 1.4.
 2. Run the following command to plan and verify the Terraform project configuration:
 	***terraform plan***
 3. Terraform will iterate through the configuration and verify that all is okay.  Output of the configuration will be produced. 
@@ -87,7 +87,7 @@ If you already have a defined AWS profile you would like to use, please continue
 ## 3. Launch Terraform
 
 >**Note:** Only proceed if **2. Configuration Checks** was successful.
-1. From the terminal, navigate to the project directory created in Section **1. Clone The Repository** Step 1.3.
+1. From the terminal, navigate to the project directory created in Section **1. Clone The Repository** Step 1.4.
 2. Run the following command to apply and launch the Terraform project:
 	***terraform apply***
 3. Terraform will process the configuration and request if you would like to proceed, with the following question: **Do you want to perform these actions?**
@@ -115,7 +115,7 @@ If you already have a defined AWS profile you would like to use, please continue
 
 Once the project has been successfully deployed, checked, and is no longer required, continue to tear down the resources that was created by Terraform in section **Launch Project** step 3.4-5.
 
-1. From the terminal, navigate to the project directory created in Section **1. Clone The Repository** Step 1.3.
+1. From the terminal, navigate to the project directory created in Section **1. Clone The Repository** Step 1.4.
 2. Run the following command to tear down all the resources created by Terraform:
 	***terraform destroy***
 3. Terraform will continue to destroy all the resources in AWS and produce output as it proceeds to do so. 
