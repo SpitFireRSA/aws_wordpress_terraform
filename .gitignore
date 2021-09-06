@@ -8,6 +8,9 @@
 # Crash log files
 crash.log
 
+# Exclude terraform lock files
+.terraform.lock.hcl
+
 # Exclude all .tfvars files, which are likely to contain sentitive data, such as
 # password, private keys, and other secrets. These should not be part of version
 # control as they are data points which are potentially sensitive and subject
@@ -37,3 +40,7 @@ terraform.rc
 
 # Ignore generated SSH key.
 *.pem
+
+# Ignore generated variable files.
+.var_db_host
+.var_wp_url
