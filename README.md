@@ -22,7 +22,7 @@ This project requires you to have the following binaries installed on your opera
 
 ## 2. AWS Profile Configuration
 
-By default this project will use the ***default*** AWS profile configured for the user executing the terraform project.  Do proceed to section **Launching Terraform** if the default profile has been configured and is accepted for use.
+By default this project will use the ***default*** AWS profile configured for the user executing the terraform project.  Do proceed to Section **Launch Project** if the default profile has been configured and is accepted for use.
 
 If you do not have a AWS profile configured, or would like to use a specific profile, then continue to **1. AWS Profile Configuration**.
 
@@ -104,7 +104,7 @@ If you already have a defined AWS profile you would like to use, please continue
 
 # Access the Wordpress Website
 
-1. Once the Terraform launch is successful in section **Launch Project** step 3.4-5, continue to copy the lun_ec2_endpoint defined in quotes.
+1. Once the Terraform launch is successful in Section **Launch Project** step 3.4-5, continue to copy the lun_ec2_endpoint defined in quotes.
 	>**Example:**     *ec2-13-244-114-136.af-south-1.compute.amazonaws.com*
 2. Open your favourite browser and open a new tab. 
 3. Paste the copied FQDN in Step 1 into the address bar and press enter.
@@ -113,7 +113,7 @@ If you already have a defined AWS profile you would like to use, please continue
 
 # Tear Down
 
-Once the project has been successfully deployed, checked, and is no longer required, continue to tear down the resources that was created by Terraform in section **Launch Project** step 3.4-5.
+Once the project has been successfully deployed, checked, and is no longer required, continue to tear down the resources that was created by Terraform in Section **Launch Project** step 3.4-5.
 
 1. From the terminal, navigate to the project directory created in Section **1. Clone The Repository** Step 1.4.
 2. Run the following command to tear down all the resources created by Terraform:
