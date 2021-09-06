@@ -18,6 +18,7 @@ sudo service docker start
 
 # Launch the wordpress docker container with defined parameters below.
 sudo docker run --name wordpress \
+    -v /tmp/update.sql:/tmp/update.sql:rw \
     -e "WORDPRESS_URL=$wp_url" \
     -e "WORDPRESS_TITLE=$wp_title" \
     -e "WORDPRESS_DB_HOST=$db_host" \
