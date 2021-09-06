@@ -27,8 +27,8 @@ resource "aws_db_instance" "lun_rds" {
 # Create the EC2 instance with Wordpress docker deployment.
 resource "aws_instance" "lun_ec2" {
   depends_on = [aws_internet_gateway.lun_gateway, aws_db_instance.lun_rds]
-  ami = "ami-0edec67949fd25461"
-  instance_type = "t3.micro"
+  ami = "ami-0d1bf5b68307103c2"
+  instance_type = "t2.micro"
   key_name = aws_key_pair.lun_test_key.key_name
   subnet_id = aws_subnet.lun_subnet_private.id
   vpc_security_group_ids = [aws_security_group.lun_sg_private.id]
