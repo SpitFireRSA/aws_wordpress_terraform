@@ -29,7 +29,7 @@ This project requires you to have the following binaries installed on your opera
 
 By default this project will use the ***default*** AWS profile configured for the user executing the terraform project.  Do proceed to Section **Launch Project** if the default profile has been configured and is accepted for use.
 
-If you do not have a AWS profile configured, or would like to use a specific profile, then continue to **1. AWS Profile Configuration**.
+If you do not have a AWS profile configured, or would like to use a specific profile, then continue to **2.3 Profile Selection**.
 
 If you already have a defined AWS profile you would like to use, please continue to **2.3.3**.
 
@@ -64,11 +64,10 @@ If you already have a defined AWS profile you would like to use, please continue
 ### 2.3 Profile Selection
 
 1. Using your favourite IDE or text editor.  Open the file named **main.tf**  that is in the project directory created in Section **1. Clone The Repository** Step 1.4.
-2. Update the value in quotes for **region = "eu-west-1"**.
-3. Update the value in quotes for **profile = "default"** to **"aws_wordpress_terraform"**
+2. Update the value in quotes for **profile = "default"** to **"aws_wordpress_terraform"**
 
 	> **Note:** Specify your desired profile name here if other than **aws_wordpress_terraform**
-4. Save the file.
+3. Save the file.
 
 
 # Launch Project
