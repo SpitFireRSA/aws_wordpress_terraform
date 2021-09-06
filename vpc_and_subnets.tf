@@ -17,14 +17,14 @@ resource "aws_subnet" "lun_subnet_private" {
 resource "aws_subnet" "lun_subnet_database_01" {
   vpc_id     = aws_vpc.lun_test_vpc.id
   cidr_block = "192.168.102.0/24"
-  availability_zone = "af-south-1a"
+  availability_zone = "eu-west-1a"
 }
 
 # Create the second database subnet in a different availability zone.
 resource "aws_subnet" "lun_subnet_database_02" {
   vpc_id     = aws_vpc.lun_test_vpc.id
   cidr_block = "192.168.103.0/24"
-  availability_zone = "af-south-1b"
+  availability_zone = "eu-west-1b"
 }
 
 # Create the new database subnet group.
