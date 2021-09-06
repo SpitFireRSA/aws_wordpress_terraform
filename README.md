@@ -13,7 +13,7 @@ This project requires you to have the following binaries installed on your opera
 
 ## 1. Clone The Repository
 
-1. Navigate to the URL: https://github.com/chrismyburgh/aws_wordpress_terraform
+1. Navigate to the URL: https://github.com/SpitFireRSA/aws_wordpress_terraform
 2. Click the green **Code** button top-right and select **Download ZIP**
 3. Save the file in a directory of your choice, where the user has full permission. 
 	* **Recommendation:**  Create a new folder under your Documents and name it **aws_wordpress_terraform**
