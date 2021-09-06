@@ -57,6 +57,7 @@ If you already have a defined AWS profile you would like to use, please continue
 
 	* **Recommendation:** Use **eu-west-1** as the default region.
 
+
 	>  **Note:** Confirm that the region is enabled and available for your AWS account before specifying.
 6. Type **json** into the **Default output format [None]:** request and press enter.
 7. Confirm your new AWS profile has been created by running the following command:
