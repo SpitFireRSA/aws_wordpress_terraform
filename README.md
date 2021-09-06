@@ -1,6 +1,6 @@
 # Luno Technical Assessment
 
-This repository contains the necessary components to deploy a Wordpress website running in a docker container in AWS making use of an EC2 host and a dedicated RDS MySQL database instance.  By design the deployment is fully automated by using Terraform.
+This repository contains the necessary components to deploy a Wordpress website running in a docker container in AWS making use of an EC2 host and a dedicated RDS MySQL database instance.  By design the deployment is fully automated by using Terraform to the AWS eu-west-1 region.
 
 Please follow the instructions below to launch the project successfully.
 
@@ -53,12 +53,7 @@ If you already have a defined AWS profile you would like to use, please continue
 	***aws configure --profile aws_wordpress_terraform***
 3. Paste the **Access key ID** obtained in Step 2.1.6 into the **AWS Access Key ID [None]:** request and press enter.
 4. Paste the **Secret access key** obtained in Step 2.1.6 into the **AWS Secret Access Key [None]:** request and press enter.
-5. Type your preferred region into the **Default region name [None]:** request and press enter.
-
-	* **Recommendation:** Use **eu-west-1** as the default region.
-
-
-	>  **Note:** Confirm that the region is enabled and available for your AWS account before specifying.
+5. Type **eu-west-1** into the **Default region name [None]:** request and press enter.
 6. Type **json** into the **Default output format [None]:** request and press enter.
 7. Confirm your new AWS profile has been created by running the following command:
 
@@ -69,9 +64,7 @@ If you already have a defined AWS profile you would like to use, please continue
 ### 2.3 Profile Selection
 
 1. Using your favourite IDE or text editor.  Open the file named **main.tf**  that is in the project directory created in Section **1. Clone The Repository** Step 1.4.
-2. Update the value in quotes for **region = "eu-west-1"** to the region specified Step 2.2.5.
-
-	> **Note:** Region eu-west-1 is default.
+2. Update the value in quotes for **region = "eu-west-1"**.
 3. Update the value in quotes for **profile = "default"** to **"aws_wordpress_terraform"**
 
 	> **Note:** Specify your desired profile name here if other than **aws_wordpress_terraform**
