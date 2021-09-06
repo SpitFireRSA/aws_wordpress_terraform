@@ -102,7 +102,7 @@ If you already have a defined AWS profile you would like to use, please continue
 
 	***terraform apply***
 
-	> **Note: Run with ***-auto-approve*** to skip step 3&4.
+	> **Note:** Run ***terraform apply*** with the ***-auto-approve*** option to skip steps 3 & 4.
 
 3. Terraform will process the configuration and request if you would like to proceed, with the following question: **Do you want to perform these actions?**
 4. Type **yes** and press enter to continue. Terraform will proceed to create the resources in AWS and produce output as it proceeds to do so.  
